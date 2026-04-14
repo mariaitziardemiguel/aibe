@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import json; nb=json.load\\(open\\('04_ML_EDSTAYS_TRIAGE.ipynb'\\)\\); print\\(f'Total celdas: {len\\(nb[\\\\\"cells\\\\\"]\\)}'\\); [print\\(f'Celda {i}: {nb[\\\\\"cells\\\\\"][i][\\\\\"source\\\\\"][:80]}'\\) for i in range\\(len\\(nb['cells']\\)\\)]\")",
+      "Bash(python -c ':*)"
+    ]
+  }
+}
